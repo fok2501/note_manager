@@ -1,5 +1,5 @@
-created_date=input('Укажите дату создания заметки в формате: 21-12-2024 ')
-issue_date=input('Укажие требуемый дедлайн этой заметки в формате: 22-12-2024 ')
+created_date=input('Укажите дату создания заметки в формате: DD-MM-YYYY ')
+issue_date=input('Укажие требуемый дедлайн этой заметки в формате: DD-MM-YYYY ')
 # краткий вывод дат
 tmp_created_date=created_date[0:5]
 tmp_issue_date=issue_date[0:5]
